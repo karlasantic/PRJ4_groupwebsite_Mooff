@@ -21,10 +21,14 @@ header {
 	background-color: #fff0e0;
 }
 
+cooming-soon {
+	color: #800000;
+}
 /* Effect on social media buttons */
 
 footer a:hover {
 	opacity: .5;
+	color: #800000
 }
 
 /* Corporate navbar */
@@ -46,3 +50,12 @@ footer a:hover {
   border-radius: 10px 10px;
   color:
 }
+/*links*/
+a {
+  color: #800000;}
+
+a :hover {
+  color: #d41616;}
+
+a :visited {
+  color: #b5ee25;}
