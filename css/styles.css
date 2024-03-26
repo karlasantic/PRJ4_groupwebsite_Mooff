@@ -44,8 +44,9 @@ body {
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 10px;
-	height: auto;
-	width: auto;
+	height: relative;
+	width: relative;
+
 }
 .vision {
   display: flex;
