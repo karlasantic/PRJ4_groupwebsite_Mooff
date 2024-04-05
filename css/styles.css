@@ -39,13 +39,14 @@ body {
 }
 .mb-9 {
 	opacity: 100%;
-	justify-content: center;
-	align-items: center;
+	justify-content: left;
+	align-items: left;
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 70px;
 	margin-bottom: 10px;
 	height: 500px;
 	width: 775px;
+	float:left;
 }
 .mb-10 {
 	opacity: 100%;
@@ -130,30 +131,14 @@ mb-4 {
 	opacity: 100%;
 	position: relative;
 }
-/* Hero Section shadow */
-.white-shadow {
-	text-shadow: -.01em -.01em .01em white,
-		.02em .02em .02em white,
-		0 0 .2em white,
-		0 0 .5em white;
+/* Production page */
+
+.styleguide {
+	opacity: 100%;
+	height: auto;
+	width: 600px;
 }
 
-.container {
-	border-radius: 10px;
-}
-
-.p-0 {
-	border-radius: 50%; /* Adjust the value to make the corners rounder */
-	height: 350px;
-	width: 350px;
-	margin-bottom: 25px;
-	opacity: 0.95; 
-	background-clip: padding-box; 
-}
-.photo-margin {
-	height: 100px;
-	width:250px;
-}
 /* Product page */
 .add-to-cart {
 	opacity: 1;
