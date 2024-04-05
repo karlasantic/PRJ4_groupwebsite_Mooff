@@ -10,7 +10,7 @@ header {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Arial', sans-serif;
 	background-color: #FEF9EA;
 }
 .photo-margin {
@@ -44,9 +44,19 @@ body {
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 10px;
-	height: relative;
-	width: relative;
-
+	height: 500px;
+	width: 775px;
+}
+.mb-10 {
+	opacity: 100%;
+	justify-content: left;
+	align-items: left;
+	margin-left: 20px;
+	margin-right: 70px;
+	margin-bottom: 10px;
+	height: 500px;
+	width: 775px;
+	float:left;
 }
 .vision {
   display: flex;
@@ -57,36 +67,28 @@ body {
   text-align: center;
 } 
 p {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Arial', sans-serif;
+	size: 14pt;
+}
+
+
+h1 {
+	font-family: 'Bebas Neue', sans-serif;
 	size: 14pt;
 }
 h2 {
 	font-family: 'Bebas Neue', sans-serif;
 	size: 14pt;	
 }
-h1 {
-	font-family: 'Bebas Neue', sans-serif;
-	size: 14pt;
-}
-
 h3 {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'roboto', sans-serif;
 	size: 16pt;
 }
+h6{
+	font-family: 'Arial', sans-serif;
+	size: 15pt;
+	color:#000060}
 
-h6 {
-	font-family: 'Roboto', sans-serif;
-	justify-content: center;
-	align-items: center;
-	text-align: justify;
-	margin-right: 25px ;
-	margin-left: 25px;
-	size: 14pt;
-}
-
-h5 {
-	font-family:'Bebas Neue';
-}
 
 /* Changing the background color for the navigation bar */
 .navbar {
@@ -106,10 +108,23 @@ footer a:hover {
 
 mb-4 {
 	opacity: 0.5;
-	overflow: relative;
-	height: relative;
-	width: relative;
-	clip: relative;
+	flex: content;
+	height: 200px;
+	width: 100px;
+}
+.column-right{
+	width:50%;
+	float: auto;
+	justify-content: right;
+	align-content: right;
+	align-items: right;
+}
+.column-left{
+	width:50%;
+	float: right;
+	justify-content: right;
+	align-content: right;
+	align-items: right;
 }
 .shadow-lg {
 	opacity: 100%;
@@ -135,7 +150,10 @@ mb-4 {
 	opacity: 0.95; 
 	background-clip: padding-box; 
 }
-
+.photo-margin {
+	height: 100px;
+	width:250px;
+}
 /* Product page */
 .add-to-cart {
 	opacity: 1;
@@ -143,12 +161,15 @@ mb-4 {
 }
 .btn-primary {
 	opacity: 1;
-	background-color: #000060;
+	background-color: #045174;
 }
 .btn-primary:hover {
 	opacity: 0.5;
 	color: #000060;
-	background-color: #800000;
+	background-color: #5b95b9;
+}
+.btn-primary:visited {	
+	color: #033757;
 }
 .product-name {
 	opacity: 100%;
