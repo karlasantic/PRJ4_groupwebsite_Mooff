@@ -10,7 +10,7 @@ header {
 }
 
 body {
-	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: #FEF9EA;
 }
 .photo-margin {
@@ -56,19 +56,31 @@ body {
   align-items: right;
   text-align: center;
 } 
-
-h1 {
-	font-family: "Source Code Pro", monospace;
+p {
+	font-family: 'Roboto', sans-serif;
+	size: 14pt;
 }
-
-h3 {
-	font-family: 'roboto', sans-serif;
+h2 {
+	font-family: 'Roboto', sans-serif;
+	size: 14pt;	
+}
+h1 {
+	font-family: 'Bebas Neue', sans-serif;
 	size: 14pt;
 }
 
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	size: 16pt;
+}
+
 h6 {
-	font-family: 'source code pro', monospace;
-	size:14pt;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	size: 14pt;
+}
+
+h5 {
+	font-family:'Bebas Neue';
 }
 
 /* Changing the background color for the navigation bar */
@@ -92,6 +104,7 @@ mb-4 {
 	overflow: relative;
 	height: relative;
 	width: relative;
+	clip: relative;
 }
 .shadow-lg {
 	opacity: 100%;
@@ -109,6 +122,34 @@ mb-4 {
 	border-radius: 10px;
 }
 
+.p-0 {
+	border-radius: 50%; /* Adjust the value to make the corners rounder */
+	height: 350px;
+	width: 350px;
+	margin-bottom: 25px;
+	opacity: 0.95; 
+	background-clip: padding-box; 
+}
+/* Product page */
+.add-to-cart {
+	opacity: 1;
+	color: #000060;
+}
+.btn-primary {
+	opacity: 1;
+	background-color: #000060;
+}
+.btn-primary:hover {
+	opacity: 0.5;
+	color: #000060;
+	background-color: #800000;
+}
+.product-name {
+	opacity: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-right: 200px;
+}
 /* Links styling */
 a {
 	color: #800000;
