@@ -61,7 +61,7 @@ p {
 	size: 14pt;
 }
 h2 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Bebas Neue', sans-serif;
 	size: 14pt;	
 }
 h1 {
@@ -81,29 +81,13 @@ h6 {
 	text-align: justify;
 	margin-right: 25px ;
 	margin-left: 25px;
-	size: 18pt;
+	size: 14pt;
 }
 
 h5 {
 	font-family:'Bebas Neue';
 }
 
-.row {
-	display: flex;
-}
-
-.column {
-	flex: 1;
-	padding: 10px;
-}
-
-.left {
-	background-color: #f1f1f1;
-}
-
-.right {
-	background-color: #ddd;
-}
 /* Changing the background color for the navigation bar */
 .navbar {
 	background-color: #FEF9EA;
@@ -170,6 +154,9 @@ mb-4 {
 	justify-content: center;
 	align-items: center;
 	margin-right: 200px;
+}
+.product-explanation{
+	color: #000060;
 }
 /* Links styling */
 a {
