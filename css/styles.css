@@ -180,6 +180,9 @@ mb-4 {
 .btn-primary:visited {	
 	color: #033757;
 }
+.btn {
+	color: #FEF9EA;
+}
 .product-name {
 	opacity: 100%;
 	justify-content: center;
@@ -192,8 +195,4 @@ mb-4 {
 /* Links styling */
 a {
 	color: #800000;
-}
-
-a:visited {
-	color: #2568ee;
 }
