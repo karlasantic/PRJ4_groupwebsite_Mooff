@@ -114,14 +114,15 @@ mb-4 {
 	width: 100px;
 }
 .column-right{
-	width:50%;
+	width:40%;
 	float: auto;
 	justify-content: right;
 	align-content: right;
 	align-items: right;
+	margin-right: 70px;
 }
 .column-left{
-	width:50%;
+	width:40%;
 	float: right;
 	justify-content: right;
 	align-content: right;
