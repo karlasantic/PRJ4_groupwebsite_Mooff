@@ -87,7 +87,7 @@ h3 {
 h6{
 	font-family: 'Arial', sans-serif;
 	size: 15pt;
-	color:#000060}
+	color:#033757}
 
 
 /* Changing the background color for the navigation bar */
@@ -161,11 +161,16 @@ mb-4 {
 }
 .textbox {
 	opacity: 100%;
-	background-color: #045174;
+	background-color: #d89c60;
+	border-radius: 10px;
+	color:#033757;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
 }
 .btn-primary {
 	opacity: 1;
-	background-color: #d89c60;
+	background-color: #045174;
 }
 .btn-primary:hover {
 	opacity: 0.5;
