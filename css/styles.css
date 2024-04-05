@@ -159,9 +159,13 @@ mb-4 {
 	opacity: 1;
 	color: #000060;
 }
+.textbox {
+	opacity: 100%;
+	background-color: #045174;
+}
 .btn-primary {
 	opacity: 1;
-	background-color: #045174;
+	background-color: #d89c60;
 }
 .btn-primary:hover {
 	opacity: 0.5;
